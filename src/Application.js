@@ -11,10 +11,10 @@ export function Application() {
     <div>
       <nav>
         <Link data-testid="link-home" to="/">Home</Link>
-        <Link to="/shri_simple_template/about">About</Link>
+        <Link to="/homework_build_react_app/about">About</Link>
       </nav>
       <Switch>
-        <Route path="/shri_simple_template/about">
+        <Route path="/homework_build_react_app/about">
           <About />
         </Route>
         <Route path="/">
